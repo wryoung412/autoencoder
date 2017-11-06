@@ -8,10 +8,10 @@ from tensorflow.examples.tutorials.mnist import input_data
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--data_dir', type=str, default='./data', help='MNIST dataset location')
+parser.add_argument('--data_dir', type=str, default='../data', help='MNIST dataset location')
 parser.add_argument('--batch_size', type=int, default=10,
                     help='Batch size')
-parser.add_argument('--num_batches', type=int, default=1000,
+parser.add_argument('--num_batches', type=int, default=500,
                     help='Number of batches to train')
 args = parser.parse_args()
 
